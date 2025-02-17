@@ -3,37 +3,37 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaTwitter, FaInstagram, FaLinkedin, FaYoutube, FaTiktok, FaMedium } from "react-icons/fa";
-import { Card, CardContent } from "@/components/ui/card";
+import { FaTwitter, FaInstagram, FaYoutube, FaTiktok, FaMedium } from "react-icons/fa";
+import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 
 
 
-const fetchQuotes = async () => {
-  try {
-    const response = await fetch("https://programming-quotesapi.vercel.app/api/available");
-    const data = await response.json();
-    return data.content;
-  } catch (error) {
-    return "Error here";
-  }
-};
+// const fetchQuotes = async () => {
+//   try {
+//     const response = await fetch("https://programming-quotesapi.vercel.app/api/available");
+//     const data = await response.json();
+//     return data.content;
+//   } catch (error) {
+//     return "Error here";
+//   }
+// };
 
 const ProfileCard = () => {
   const [quote, setQuote] = useState("Loading...");
 
-  useEffect(() => {
-    const updateQuote = async () => {
-      const newQuote = await fetchQuotes();
-      setQuote(newQuote);
-    };
+  // useEffect(() => {
+  //   const updateQuote = async () => {
+  //     const newQuote = await fetchQuotes();
+  //     setQuote(newQuote);
+  //   };
 
-    updateQuote();
-    const interval = setInterval(updateQuote, 10000);
-    return () => clearInterval(interval);
-  }, []);
+  //   updateQuote();
+  //   const interval = setInterval(updateQuote, 10000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
    
