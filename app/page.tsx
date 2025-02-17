@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaTwitter, FaInstagram, FaYoutube, FaTiktok, FaMedium } from "react-icons/fa";
@@ -22,7 +22,7 @@ import { Input } from "@/components/ui/input";
 // };
 
 const ProfileCard = () => {
-  const [quote, setQuote] = useState("Loading...");
+  // const [quote, setQuote] = useState("Loading...");
 
   // useEffect(() => {
   //   const updateQuote = async () => {
@@ -57,7 +57,7 @@ const ProfileCard = () => {
           
         </div>
 
-        <blockquote className="italic text-gray-700 my-4">“{quote}”</blockquote>
+        {/* <blockquote className="italic text-gray-700 my-4">“{quote}”</blockquote> */}
 
         <h3 className="text-2xl font-semibold mt-6">About Me</h3>
         <p className="text-gray-600 text-sm mt-2">I share insights on tech, coding, and money-making strategies. Join my journey and explore opportunities in tech!</p>
