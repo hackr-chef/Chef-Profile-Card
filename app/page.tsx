@@ -75,10 +75,8 @@ const ProfileCard = () => {
           frameworks, backend development, or AI integration, I explore it all. 
         </p>
         <p className="text-gray-600 text-sm mt-2 text-balance">
-          As an educator and creator, I share coding tips, money-making strategies, and business insights to 
-          help developers and entrepreneurs succeed. My journey in tech has allowed me to build meaningful 
-          projects, contribute to communities, and collaborate with like-minded individuals. Join me on this 
-          adventure as we push the boundaries of technology together!
+          As an educator and creator, I share coding tips, money-making strategies, and business insights to help developers and entrepreneurs succeed. My journey in tech has allowed me to build meaningful 
+          projects, contribute to communities, and collaborate with like-minded individuals. Join me on this adventure as we push the boundaries of technology together!
         </p>
        
 
