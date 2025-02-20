@@ -28,14 +28,7 @@ const techIcons = [
 
 const ProfileCard = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentIcon, setCurrentIcon] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIcon((prev) => (prev + 1) % techIcons.length);
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
+ 
 
   return (
    
