@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaTwitter, FaInstagram, FaYoutube, FaTiktok, FaMedium, FaAngular, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact, FaWhatsapp } from "react-icons/fa";
@@ -68,10 +68,10 @@ const ProfileCard = () => {
 
         <h3 className="text-2xl font-semibold">About Me</h3>
         <p className="text-gray-600 text-sm mt-2  text-balance"> 
-          I'm a passionate tech enthusiast with a love for innovation, teaching, and problem-solving. 
+          I&lsquo;m a passionate tech enthusiast with a love for innovation, teaching, and problem-solving. 
           With years of experience in web development and a keen eye for emerging technologies, I create 
           content that simplifies complex concepts, making tech more accessible to everyone. My mission is to 
-          empower individuals to build, learn, and grow in the digital space. Whether it's front-end 
+          empower individuals to build, learn, and grow in the digital space. Whether it&lsquo;s front-end 
           frameworks, backend development, or AI integration, I explore it all. 
         </p>
         <p className="text-gray-600 text-sm mt-2 text-balance">
